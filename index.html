@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla JavaScript</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Search Hacker News</h1>
+      <label for="searchInput">Find articles:</label>
+      <input id="searchInput" />
+      <button id="searchButton">Search</button>
+    </div>
+  </body>
+  <script src="index.js" defer></script>
+  <script type="module">
+    import { Octokit, App } from "https://esm.sh/octokit";
+  </script>
+</html>
